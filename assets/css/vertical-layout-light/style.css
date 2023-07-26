@@ -14459,6 +14459,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  border-bottom: 1px solid grey;
 }
 
 .navbar>.container,
@@ -15035,10 +15036,11 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   /* background-image: url(./back-bg0.png); */
   /* background-image: url(./bg3.png); */
   background-clip: border-box;
-  border: 1px solid #ece0e0;
-  border-radius: 10px;
+  /* border: 1px solid #ece0e0; */
+  border-radius: 0px;
   padding: 1em;
-  min-width:84%;
+  min-width:80%;
+  width: 2000px;
 }
 
 .card>hr {
@@ -32727,7 +32729,7 @@ div.tagsinput span.tag a {
   -moz-transition: background 0.25s ease;
   -ms-transition: background 0.25s ease;
   box-shadow: none;
-  background: #000b5d;
+  /* background: #000b5d; */
   /* Navbar color variations */
 }
 
@@ -32741,11 +32743,11 @@ div.tagsinput span.tag a {
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
   -ms-transition: width 0.25s ease, background 0.25s ease;
-  width: 220px;
+  width: 198px;
   height: 97px;
   padding: 20px 35px;
   border-right: 1px solid grey;
-  border-bottom: 1px solid grey;
+  /* border-bottom: 1px solid grey; */
 }
 
 .sidebar-dark .navbar .navbar-brand-wrapper {
@@ -32861,9 +32863,11 @@ div.tagsinput span.tag a {
   padding-right: 2.187rem;
   padding-top: 30px;
   padding-bottom: 25px;
-  width: calc(100% - 220px);
+  width: calc(100% - 198px);
   height: 97px;
-  border-bottom: 1px solid #F6F4F1; 
+  /* border-bottom: 1px solid #F6F4F1; */
+  /* border-bottom: 1px solid grey; */
+
 }
 
 .ecuti-navbar{
@@ -32881,11 +32885,11 @@ div.tagsinput span.tag a {
 
 @media (max-width: 991px) {
   .navbar .navbar-menu-wrapper {
-    width: calc(100% - 55px);
+    width: calc(100% - 56px);
     padding-top: 12px;
     padding-left: 15px;
     padding-right: 11px;
-    height: auto;
+    height: 199px;
   }
 }
 
