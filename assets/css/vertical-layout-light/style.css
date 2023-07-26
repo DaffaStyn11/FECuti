@@ -9998,6 +9998,8 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  background-image: url(./bg3.png);
+
 }
 
 @media (min-width: 576px) {
@@ -15031,12 +15033,12 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   word-wrap: break-word;
   /* background-color: #f4f4f4; */
   /* background-image: url(./back-bg0.png); */
-  background-image: url(./bg3.png);
+  /* background-image: url(./bg3.png); */
   background-clip: border-box;
   border: 1px solid #ece0e0;
   border-radius: 10px;
   padding: 1em;
-  min-width:80%;
+  min-width:84%;
 }
 
 .card>hr {
@@ -32537,7 +32539,7 @@ div.tagsinput span.tag a {
 
 .sidebar .nav:not(.sub-menu)>.nav-item:hover>.nav-link,
 .sidebar .nav:not(.sub-menu)>.nav-item:hover[aria-expanded="true"] {
-  background: #2588df;
+  background: #B1141D;
   color: #fff;
 }
 
@@ -32849,7 +32851,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar .navbar-menu-wrapper {
-  background: grey;
+  background: #B1141D;
   transition: width 0.25s ease;
   -webkit-transition: width 0.25s ease;
   -moz-transition: width 0.25s ease;
