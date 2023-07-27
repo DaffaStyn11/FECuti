@@ -15040,7 +15040,7 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
   border-radius: 0px;
   padding: 1em;
   min-width:80%;
-  width: 2000px;
+  width: 1980px;
 }
 
 .card>hr {
@@ -32769,9 +32769,10 @@ div.tagsinput span.tag a {
 .navbar .navbar-brand-wrapper .navbar-brand {
   color: #27367f;
   font-size: 1.5rem;
-  margin-right: 0;
+  margin-right: 0px;
   padding: 0;
   line-height: 1;
+
 }
 
 .navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini {
@@ -32787,27 +32788,31 @@ div.tagsinput span.tag a {
 .navbar .navbar-brand-wrapper .navbar-brand img {
   max-width: 100%;
   height: 75px;
+  width: 100px;
   margin: auto;
   vertical-align: middle;
+  float: left;
+  margin-left: 20px;
 }
 
 .navbar .navbar-brand-wrapper .navbar-brand img:hover{
   max-width: 100%;
   height: 100px;
+  width: 125px;
   margin: auto;
   vertical-align: middle;
 }
 
-.navbar .navbar-brand-wrapper .brand-logo-mini {
+/* .navbar .navbar-brand-wrapper .brand-logo-mini {
   padding-left: 0;
   text-align: center;
-}
+} */
 
-.navbar .navbar-brand-wrapper .brand-logo-mini img {
+/* .navbar .navbar-brand-wrapper .brand-logo-mini img {
   width: calc(70px - 30px);
   max-width: 100%;
   margin: auto;
-}
+} */
 
 .navbar .navbar-brand-wrapper .navbar-toggler {
   border: 0;
@@ -32881,6 +32886,7 @@ div.tagsinput span.tag a {
   color: #F6F4F1;
   font-weight: bolder;
   font-size: 30px;
+  text-shadow: 2px 2px 2px red, 4px 4px 12px white;
 }
 
 @media (max-width: 991px) {
@@ -34814,9 +34820,9 @@ div.tagsinput span.tag a {
     display: none;
   }
 
-  .navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini {
+  /* .navbar .navbar-brand-wrapper .navbar-brand.brand-logo-mini {
     display: inline-block;
-  }
+  } */
 
   .navbar-collapse {
     display: -webkit-box;
@@ -34831,9 +34837,9 @@ div.tagsinput span.tag a {
     width: 55px;
   }
 
-  .navbar .navbar-brand-wrapper .brand-logo-mini {
+  /* .navbar .navbar-brand-wrapper .brand-logo-mini {
     padding-top: 0px;
-  }
+  } */
 }
 
 /* Layouts */
@@ -34948,9 +34954,9 @@ div.tagsinput span.tag a {
     display: none;
   }
 
-  .sidebar-icon-only .navbar .navbar-brand-wrapper .brand-logo-mini {
+  /* .sidebar-icon-only .navbar .navbar-brand-wrapper .brand-logo-mini {
     display: inline-block;
-  }
+  } */
 
   .sidebar-icon-only .navbar .navbar-menu-wrapper {
     width: calc(100% - 70px);

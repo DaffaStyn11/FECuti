@@ -10,9 +10,9 @@
           <a class="navbar-brand brand-logo" href="index.html">
             <img src="../assets/css/vertical-layout-light/logo1.png" alt="" />
           </a>
-          <a class="navbar-brand brand-logo-mini" href="index.html">
+          <!-- <a class="navbar-brand brand-logo-mini" href="index.html">
             <img src="../assets/css/vertical-layout-light/logo1.png" alt="" />
-          </a>
+          </a> -->
         </div>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-top">
