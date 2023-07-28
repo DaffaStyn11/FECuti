@@ -32501,7 +32501,9 @@ div.tagsinput span.tag a {
 .sidebar .nav .nav-item.active>.nav-link i,
 .sidebar .nav .nav-item.active>.nav-link .menu-title,
 .sidebar .nav .nav-item.active>.nav-link .menu-arrow {
-  color: #1F3BB3;
+  /* color: #1F3BB3; */
+  color: #fff;
+
 }
 
 .sidebar .nav .nav-item.active>.nav-link .menu-title {
@@ -32799,6 +32801,8 @@ div.tagsinput span.tag a {
   float: left;
   margin-left: 20px;
 }
+
+
 
 .navbar .navbar-brand-wrapper .navbar-brand img:hover{
   max-width: 100%;
